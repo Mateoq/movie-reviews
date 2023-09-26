@@ -1,0 +1,16 @@
+{
+  "name": "movie-reviews",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start:dev": "concurrently \"yarn workspace @movie-reviews/services run start:dev\" \"yarn workspace @movie-reviews/client run dev\""
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}

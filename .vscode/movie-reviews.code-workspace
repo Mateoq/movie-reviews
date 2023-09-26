@@ -1,0 +1,7 @@
+{
+  "folders": [
+    { "name": "🎥 Movie Reviews", "path": "../" },
+    { "name": "💾 Services", "path": "../apps/services" },
+    { "name": "🎆 Client", "path": "../apps/client" },
+  ]
+}
